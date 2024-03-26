@@ -1,0 +1,23 @@
+[
+  "^ ",
+  "~:classpath",
+  ["~#set", []],
+  "~:project-hash",
+  "",
+  "~:project-root",
+  "/Users/liuwenlong/github.liuwenlong.com/ZoteroQuickLook",
+  "~:kondo-config-hash",
+  "ad840377f331eb4bdc15f3c3aa6ebb0ab46587eac4080852958d60eedf5988b2",
+  "~:dependency-scheme",
+  "jar",
+  "~:analysis",
+  null,
+  "~:analysis-checksums",
+  ["^ "],
+  "~:project-analysis-type",
+  "~:project-and-full-dependencies",
+  "~:version",
+  12,
+  "~:stubs-generation-namespaces",
+  ["^1", []]
+]

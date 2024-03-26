@@ -1,15 +1,15 @@
 {
-  "name": "zotero-addon-template",
-  "version": "1.1.1",
-  "description": "Zotero Addon Template",
+  "name": "zotero-quick-look",
+  "version": "0.0.1",
+  "description": "Quick preview for Zotero7",
   "config": {
-    "addonName": "Zotero Addon Template",
-    "addonID": "addontemplate@euclpts.com",
-    "addonRef": "addontemplate",
-    "addonInstance": "AddonTemplate",
-    "prefsPrefix": "extensions.zotero.addontemplate",
-    "releasePage": "https://github.com/windingwind/zotero-addon-template/releases",
-    "updateJSON": "https://raw.githubusercontent.com/windingwind/zotero-addon-template/main/update.json"
+    "addonName": "QuickLook for Zotero",
+    "addonID": "zoteroquicklook@iiwenwen",
+    "addonRef": "zoteroquicklook",
+    "addonInstance": "QuickLook",
+    "prefsPrefix": "extensions.zotero.zoteroquicklook",
+    "releasePage": "https://github.com/iiwenwen/ZoteroQuickLook/releases",
+    "updateJSON": "https://raw.githubusercontent.com/iiwenwen/ZoteroQuickLook/main/update.json"
   },
   "main": "src/index.ts",
   "scripts": {
@@ -23,14 +23,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/windingwind/zotero-addon-template.git"
+    "url": "git+https://github.com/iiwenwen/ZoteroQuickLook.git"
   },
-  "author": "windingwind",
+  "author": "iiwenwen",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/windingwind/zotero-addon-template/issues"
+    "url": "https://github.com/iiwenwen/ZoteroQuickLook/issues"
   },
-  "homepage": "https://github.com/windingwind/zotero-addon-template#readme",
+  "homepage": "https://github.com/iiwenwen/ZoteroQuickLook",
   "dependencies": {
     "zotero-plugin-toolkit": "^2.3.15"
   },
