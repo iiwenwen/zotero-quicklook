@@ -21,16 +21,8 @@ export async function registerPrefsScripts(_window: Window) {
       ],
       rows: [
         {
-          title: "Orange",
-          detail: "It's juicy",
-        },
-        {
-          title: "Banana",
-          detail: "It's sweet",
-        },
-        {
-          title: "Apple",
-          detail: "I mean the fruit APPLE",
+          title: "设置系统",
+          detail: "Mac",
         },
       ],
     };
@@ -114,7 +106,7 @@ function bindPrefEvents() {
     ?.addEventListener("command", (e) => {
       ztoolkit.log(e);
       addon.data.prefs!.window.alert(
-        `Successfully changed to ${(e.target as XUL.Checkbox).checked}!`,
+        `更改成功 ${(e.target as XUL.Checkbox).checked}!`,
       );
     });
 
@@ -125,7 +117,7 @@ function bindPrefEvents() {
     ?.addEventListener("change", (e) => {
       ztoolkit.log(e);
       addon.data.prefs!.window.alert(
-        `Successfully changed to ${(e.target as HTMLInputElement).value}!`,
+        `修改成功 ${(e.target as HTMLInputElement).value}!`,
       );
     });
 }

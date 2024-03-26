@@ -1,4 +1,4 @@
-pref-title = Addon Template Example
+pref-title =QuickLook
 pref-enable =
     .label = Enable
 pref-input = Input

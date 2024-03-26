@@ -22,7 +22,7 @@ async function onStartup() {
 
   initLocale();
 
-  Preference.registerPrefs();
+  // Preference.registerPrefs();
 
   KeyFactory.registerShortcuts();
 
