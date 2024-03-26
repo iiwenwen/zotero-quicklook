@@ -3,7 +3,7 @@
     "zoteroquicklook@iiwenwen": {
       "updates": [
         {
-          "version": "0.1.1",
+          "version": "0.1.2",
           "update_link": "https://github.com/iiwenwen/ZoteroQuickLook/releases/latest/download/zotero-quick-look.xpi",
           "applications": {
             "zotero": {

@@ -1,6 +1,6 @@
 {
   "name": "zotero-quick-look",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Quick preview for Zotero7",
   "config": {
     "addonName": "QuickLook for Zotero",
